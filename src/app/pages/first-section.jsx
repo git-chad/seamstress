@@ -84,7 +84,7 @@ const FirstSection = () => {
         <div
           ref={slidesRef}
           id="slides"
-          className="relative px-4 sm:px-12 w-[250px] sm:w-[500px] h-[375px] sm:h-[750px]"
+          className="relative px-4 sm:px-12 w-[250px] sm:w-[500px] h-[375px] sm:h-[750px] cursor-pointer"
         >
           <Image
             width={800}
